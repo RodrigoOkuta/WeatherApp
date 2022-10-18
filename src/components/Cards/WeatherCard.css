@@ -1,0 +1,48 @@
+.weather-card {
+  margin: 40px 0;
+  font-size: 30px;
+  font-weight: 200;
+
+  box-shadow: 0px 0px 30px rgb(197, 213, 224);
+  border-radius: 25px;
+}
+
+.weather-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.weather-card .todays-forecast .icon {
+  font-size: 100px;
+  margin: auto 25px;
+}
+
+.temp {
+  font-size: 80px;
+  font-weight: 400;
+}
+
+.temp::after {
+  content: "\00b0";
+}
+
+.weather-info {
+  display: flex;
+  flex-direction: column;
+  text-align: initial;
+}
+
+.todays-forecast {
+  border: 5px solid white;
+  border-radius: 15px 15px 0 0;
+  padding: 50px 0 80px;
+}
+
+.future-forecast-weather {
+  display: flex;
+  border: 5px solid white;
+  border-top: 0;
+  border-radius: 0 0 15px 15px;
+  justify-content: space-between;
+}

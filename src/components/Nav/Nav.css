@@ -1,0 +1,13 @@
+.nav-items {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  font-size: 30px;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+.nav-items .active {
+  font-weight: 600;
+  color: rgb(115, 174, 227);
+}
